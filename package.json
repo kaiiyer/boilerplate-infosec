@@ -1,22 +1,32 @@
 {
-	"name": "fcc-infosec-challenges",
-	"version": "0.0.1",
-	"description": "fcc backend boilerplate",
-	"main": "server.js",
-	"scripts": {
-		"start": "node myApp.js"
-	},
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"engines": {
-		"node": "4.4.5"
-	},
-	"keywords": [
-		"node",
-		"hyperdev",
-		"express",
-		"freecodecamp"
-	],
-	"license": "MIT"
+  "name": "fcc-infosec-challenges",
+  "version": "0.0.1",
+  "description": "fcc backend boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "start": "node myApp.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "helmet": "^3.13.0"
+  },
+  "engines": {
+    "node": "4.4.5"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express",
+    "freecodecamp"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiiyer/boilerplate-infosec.git"
+  },
+  "author": "Kai Iyer",
+  "bugs": {
+    "url": "https://github.com/kaiiyer/boilerplate-infosec/issues"
+  },
+  "homepage": "https://github.com/kaiiyer/boilerplate-infosec#readme"
 }
